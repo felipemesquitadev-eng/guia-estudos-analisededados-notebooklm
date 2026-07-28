@@ -18,39 +18,29 @@ O objetivo principal é aliar o pensamento crítico à Inteligência Artificial 
 
 ---
 
-## Curadoria de Fontes (20 Fontes Selecionadas)
+## Curadoria de Fontes Selecionadas por Tópico
 
-Para alimentar o NotebookLM com materiais confiáveis e abertos, foram selecionadas 20 fontes divididas em 5 eixos temáticos:
+Para alimentar o NotebookLM com materiais confiáveis e abertos, foram selecionadas 20 fonte de referência técnica de alta autoridade para cada um dos 5 eixos temáticos do projeto:
 
-### I. Teoria, Fundamentos e Metodologia de Trabalho
-1. **[CRISP-DM Process Overview (Wikipedia)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining):** Visão geral do ciclo de vida clássico de projetos de dados.
-2. **[Google Data Analytics Professional Cert](https://www.coursera.org/professional-certificates/google-data-analytics):** Referência das 6 etapas da metodologia Google (*Perguntar, Preparar, Processar, Analisar, Compartilhar e Agir*).
-3. **[Estatística e Probabilidade (Khan Academy)](https://pt.khanacademy.org/math/statistics-probability):** Conceitos de média, mediana, desvio padrão e distribuições.
-4. **[Key Performance Indicators (Wikipedia)](https://en.wikipedia.org/wiki/Performance_indicator):** Definições de KPIs, métricas de negócio e indicadores *lagging/leading*.
+### 1. Teoria, Fundamentos e Metodologia de Trabalho
+Detalha o ciclo de vida clássico de projetos analíticos, abordando desde o entendimento do problema de negócio até a validação e implantação dos modelos.
+* **Link:** [CRISP-DM Process Overview (Wikipedia)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
 
-### II. Manipulação com Planilhas (Excel e Google Sheets)
-5. **[Spreadsheets & Functions (Wikipedia)](https://en.wikipedia.org/wiki/Spreadsheet):** Fundamentos de planilhas eletrônicas, referências de células e fórmulas.
-6. **[VLOOKUP & Data Lookup (Wikipedia)](https://en.wikipedia.org/wiki/VLOOKUP):** Lógica e funcionamento de funções de busca e relacionamento de dados.
-7. **[Treinamento do Microsoft Excel (Suporte Oficial)](https://support.microsoft.com/pt-br/excel):** Tabelas dinâmicas, formatação condicional e Power Query.
-8. **[Data Cleansing Concepts (Wikipedia)](https://en.wikipedia.org/wiki/Data_cleansing):** Técnicas e conceitos essenciais para higienização e tratamento de dados.
+### 2. Manipulação com Planilhas (Excel e Google Sheets)
+Apresenta a estrutura conceitual de planilhas eletrônicas, lógica de fórmulas, referências cruzadas de células e agrupamentos por tabelas dinâmicas.
+* **Link:** [Spreadsheets & Functions (Wikipedia)](https://en.wikipedia.org/wiki/Spreadsheet)
 
-### III. Consulta e Estruturação de Dados com SQL
-9. **[PostgreSQL Developer Tutorials (Crunchy Data)](https://www.crunchydata.com/developers/tutorials):** Tutoriais de sintaxe SQL (`SELECT`, `WHERE`, `GROUP BY`, `HAVING`).
-10. **[PostgreSQL for Data Analysis Guide (Domo)](https://www.domo.com/learn/article/postgresql-for-data-analysis-a-complete-guide):** Uso avançado de *Window Functions* e subqueries em SQL.
-11. **[BigQuery Documentation (Google Cloud)](https://cloud.google.com/bigquery/docs):** Consultas em nuvem e manipulação de grandes volumes de dados.
-12. **[BigQuery Connected Sheets (Google Cloud)](https://cloud.google.com/bigquery/docs/connected-sheets):** Conexão direta entre bancos de dados SQL e planilhas.
+### 3. Consulta e Estruturação de Dados com SQL
+Guia focado na prática analítica com SQL, ensinando desde filtragens e agregações até *Window Functions* para consultas temporais e agrupadas.
+* **Link:** [PostgreSQL for Data Analysis Guide (Domo)](https://www.domo.com/learn/article/postgresql-for-data-analysis-a-complete-guide)
 
-### IV. Visualização de Dados e Dashboards
-13. **[Power BI Data Connectivity (Microsoft Learn)](https://learn.microsoft.com/pt-br/power-bi/connect-data/):** Conectar fontes de dados (Excel, CSV e bancos SQL) no Power BI.
-14. **[Power BI Data Modeling & DAX (Microsoft Learn)](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-modeling-view):** Modelagem multidimensional (*Star Schema*) e criação de métricas DAX.
-15. **[Tableau Public Tutorial](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-build.htm):** Construção de relatórios e painéis interativos.
-16. **[Google Looker Studio Documentation](https://support.google.com/looker-studio/):** Criação de dashboards em nuvem conectados ao Sheets e BigQuery.
-17. **[Fundamentals of Data Visualization (Claus O. Wilke)](https://clauswilke.com/dataviz/):** Teoria das cores, escolha de gráficos e boas práticas de design/UX.
+### 4. Visualização de Dados e Dashboards
+Documentação oficial que ensina a estruturar dados no formato *Star Schema* (Fato e Dimensão) e criar métricas otimizadas para dashboards interativos.
+* **Link:** [Power BI Data Modeling & DAX (Microsoft Learn)](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-modeling-view)
 
-### V. IA Aplicada para Acelerar a Análise de Dados
-18. **[Microsoft Copilot no Power BI](https://learn.microsoft.com/pt-br/power-bi/create-reports/copilot-introduction):** Uso de IA para geração de expressões DAX e resumos executivos.
-19. **[OpenAI Cookbook (SQL Prompts)](https://cookbook.openai.com/):** Exemplos de engenharia de prompt para geração e depuração de queries SQL.
-20. **[Generative AI Overview (Wikipedia)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence):** Conceitos de IA generativa aplicada ao processamento e automação de análises.
+### 5. IA Aplicada para Acelerar a Análise de Dados
+Aborda os fundamentos e o funcionamento da Inteligência Artificial Generativa no suporte ao processamento de dados, automação de sintaxe e análise preditiva.
+* **Link:** [Generative AI Overview (Wikipedia)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
 
 ---
 
