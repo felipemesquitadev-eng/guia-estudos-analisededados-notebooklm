@@ -20,33 +20,41 @@ O objetivo principal é aliar o pensamento crítico à Inteligência Artificial 
 
 ## Curadoria de Fontes Selecionadas por Tópico
 
-Para alimentar o NotebookLM com materiais confiáveis e abertos, foram selecionadas 21 fontes de conteúdo para os 5 eixos temáticos do projeto. Abaixo estão descritos os eixos e uma fonte fonte de referência técnica de alta autoridade para cada.
+Para alimentar o NotebookLM com materiais confiáveis e abertos, foram selecionadas 5 fontes abertas de alta autoridade técnica, sendo uma para cada eixo temático do projeto:
 
 ### 1. Teoria, Fundamentos e Metodologia de Trabalho
 Detalha o ciclo de vida clássico de projetos analíticos, abordando desde o entendimento do problema de negócio até a validação e implantação dos modelos.
-* **Fonte:** [CRISP-DM Process Overview (Wikipedia)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
+* **Link:** [CRISP-DM Process Overview (Wikipedia)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
+
+---
 
 ### 2. Manipulação com Planilhas (Excel e Google Sheets)
 Apresenta a estrutura conceitual de planilhas eletrônicas, lógica de fórmulas, referências cruzadas de células e agrupamentos por tabelas dinâmicas.
-* **Fonte:** [Spreadsheets & Functions (Wikipedia)](https://en.wikipedia.org/wiki/Spreadsheet)
+* **Link:** [Spreadsheets & Functions (Wikipedia)](https://en.wikipedia.org/wiki/Spreadsheet)
+
+---
 
 ### 3. Consulta e Estruturação de Dados com SQL
 Guia focado na prática analítica com SQL, ensinando desde filtragens e agregações até *Window Functions* para consultas temporais e agrupadas.
-* **Fonte:** [PostgreSQL for Data Analysis Guide (Domo)](https://www.domo.com/learn/article/postgresql-for-data-analysis-a-complete-guide)
+* **Link:** [PostgreSQL for Data Analysis Guide (Domo)](https://www.domo.com/learn/article/postgresql-for-data-analysis-a-complete-guide)
+
+---
 
 ### 4. Visualização de Dados e Dashboards
 Documentação oficial que ensina a estruturar dados no formato *Star Schema* (Fato e Dimensão) e criar métricas otimizadas para dashboards interativos.
-* **Fonte:** [Power BI Data Modeling & DAX (Microsoft Learn)](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-modeling-view)
+* **Link:** [Power BI Data Modeling & DAX (Microsoft Learn)](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-modeling-view)
+
+---
 
 ### 5. IA Aplicada para Acelerar a Análise de Dados
 Aborda os fundamentos e o funcionamento da Inteligência Artificial Generativa no suporte ao processamento de dados, automação de sintaxe e análise preditiva.
-* **Fonte:** [Generative AI Overview (Wikipedia)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
+* **Link:** [Generative AI Overview (Wikipedia)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
 
 ---
 
 ## Engenharia de Prompts e Registro de "Cicatrizes" (Troubleshooting)
 
-Nesta seção estão documentados os testes realizados no NotebookLM, o raciocínio por trás dos prompts e a análise crítica das limitações observadas.
+Nesta seção estão documentados os testes realizados no NotebookLM, o raciocínio por trás dos prompts, os resultados, as referências utilizadas pela IA e a análise crítica das limitações observadas.
 
 ### Prompts Submetidos e Respostas Obtidas
 
@@ -54,16 +62,20 @@ Nesta seção estão documentados os testes realizados no NotebookLM, o raciocí
 > **Pergunta:** *"De acordo com as fontes, como a IA generativa (ex: Copilot, Gemini) pode ser usada para auxiliar na escrita de consultas SQL e fórmulas DAX no Power BI sem substituir o pensamento crítico do analista?"*
 >
 > **Resultado da IA:** O NotebookLM entregou uma excelente resposta conceitual. Destacou a geração de DAX no Power BI e SQL no BigQuery, apontou o risco de alucinação e reforçou que a IA atua como ferramenta de aumento de produtividade, cabendo ao analista a validação do contexto do negócio.
+>
+> **Fontes Referenciadas no NotebookLM:** *Power BI Data Modeling & DAX (Microsoft Learn)* e *Generative AI Overview (Wikipedia)*.
 
 #### Prompt 2: Ciclos de Vida, SQL Prático e Conexões no Power BI
 > **Pergunta:** *"Com base nas fontes, explique as etapas do CRISP-DM, crie um guia comparando WHERE vs. HAVING com exemplo de ROW_NUMBER, e explique como conectar o Power BI ao SQL/Excel em um Star Schema."*
 >
-> **Resultado da IA:** O modelo priorizou a discussão sobre IA e omitiu o detalhamento do CRISP-DM e a sintaxe prática em código do SQL.
+> **Resultado da IA:** O modelo priorizou a discussão sobre IA e omitiu o detalhamento das etapas do CRISP-DM e a sintaxe prática em código do SQL.
+>
+> **Fontes Referenciadas no NotebookLM:** *Generative AI Overview (Wikipedia)* (omitiu citações diretas das fontes de SQL e CRISP-DM devido à compressão do prompt).
 
 ### Registro de "Cicatrizes" (Limitações & Resolução de Problemas)
 
 1. **Compressão do Contexto por Prompt Agrupado:**
-   * **Dificuldade:** Ao enviar múltiplos tópicos complexos (CRISP-DM + SQL + Power BI + IA) em uma única mensagem, o modelo tendeu a responder com profundidade apenas o último tópico e generalizar os primeiros.
+   * **Dificuldade:** Ao enviar múltiplos tópicos complexos (CRISP-DM + SQL + Power BI + IA) em uma única mensagem, o modelo tendeu a responder com profundidade apenas o último tópico e generalizar/omitir os primeiros.
    * **Solução:** Fracionar as perguntas no NotebookLM em prompts individuais focados por tema.
 
 2. **Aversão a Código Prático Formatado:**
@@ -72,7 +84,7 @@ Nesta seção estão documentados os testes realizados no NotebookLM, o raciocí
 
 ---
 
-## Miniguia de Estudo (Entrega Final)
+## Miniguia de Estudos
 
 ### 1. Resumos Estruturados do Assunto
 
@@ -99,16 +111,4 @@ Toda análise de dados de sucesso começa no negócio, não nos dados.
 | **KPI** | *Key Performance Indicator*. Métrica quantitativa essencial para medir o sucesso de um objetivo de negócio. |
 | **Star Schema** | Modelo de dados otimizado para BI com uma tabela Fato central cercada por tabelas Dimensão. |
 | **DAX** | *Data Analysis Expressions*. Linguagem de fórmulas utilizada no Power BI para criar medidas calculadas. |
-| **Window Function** | Função SQL (ex: `ROW_NUMBER()`, `RANK()`) que realiza cálculos através de um conjunto de linhas relativas à linha atual. |
-| **Alucinação (IA)** | Fenômeno em que a IA generativa produz uma resposta incorreta ou inventada com tom de certeza. |
-
----
-
-### 3. Conjunto de Prompts Reutilizáveis (Para Estudos Futuros)
-
-Abaixo estão 3 templates de prompts testados e otimizados para reutilização no NotebookLM ou em outros assistentes de IA:
-
-#### 🟢 Prompt para Explication de Código SQL:
-```text
-Atue como um Analista de Dados Sênior. Com base nas fontes, explique a diferença conceitual e prática entre a cláusula WHERE e HAVING no SQL. Forneça um exemplo prático contendo um SELECT com GROUP BY e insira um bloco de código formatado.
-```
+|
