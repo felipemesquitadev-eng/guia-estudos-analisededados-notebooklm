@@ -1,7 +1,8 @@
 # Guia de Estudos e Caderno Virtual de Análise de Dados no NotebookLM
 
-> Miniguia prático, curadoria de fontes e documentação de engenharia de prompts sobre Análise de Dados, desenvolvido como projeto prático para a plataforma **DIO (Digital Innovation One)**.
+Miniguia prático, curadoria de fontes e documentação de engenharia de prompts sobre Análise de Dados, desenvolvido como projeto prático para a plataforma **DIO (Digital Innovation One)**.
 
+[![NotebookLM](https://img.shields.io/badge/Acessar-NotebookLM-blue?style=for-the-badge&logo=google&logoColor=white)](https://notebook.google.com/notebook/c910d27a-81ca-4dbf-a720-0659b423b489)
 ---
 
 ## Contexto e Objetivos
