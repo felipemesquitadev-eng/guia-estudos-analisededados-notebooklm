@@ -1,90 +1,90 @@
-# Guia de Estudos e Caderno Virtual de Análise de Dados no NotebookLM
+# Caderno de Estudos e Guia Prático de Análise de Dados no NotebookLM
 
 [![NotebookLM](https://img.shields.io/badge/Acessar-NotebookLM-blue?style=for-the-badge&logo=google&logoColor=white)](COLE_O_SEU_LINK_AQUI)
 
-> Miniguia prático, curadoria de fontes e documentação de engenharia de prompts sobre Análise de Dados, desenvolvido como projeto prático para a plataforma **DIO (Digital Innovation One)**.
+> Este repositório reúne um miniguia prático, curadoria de fontes de alta autoridade e a documentação de engenharia de prompts aplicada à área de Análise de Dados. O projeto foi desenvolvido como um laboratório prático para a **DIO (Digital Innovation One)**, explorando o uso da Inteligência Artificial Generativa como ferramenta de aprendizagem ativa.
 > 
-> 🔗 **Caderno Virtual:** [Clique aqui para abrir o projeto no Google NotebookLM](COLE_O_SEU_LINK_AQUI)
+> 🔗 **Acesso ao Caderno Virtual:** [Clique aqui para abrir o projeto no Google NotebookLM](COLE_O_SEU_LINK_AQUI)
 
 ---
 
 ## Contexto e Objetivos
 
-Este repositório reúne a documentação, curadoria e estrutura de conhecimento utilizadas para a criação de um **Caderno Temático no NotebookLM**, focado na área de **Análise de Dados**. 
-
-O objetivo principal é aliar o pensamento crítico à Inteligência Artificial Generativa como ferramenta de aprendizagem ativa, explorando conceitos fundamentais de análise, ferramentas essenciais de mercado e a integração com IA, **sem invadir escopos avançados de Engenharia de Dados ou Ciência de Dados pura (Machine Learning/MLOps)**.
+O propósito deste projeto é a construção de um **Caderno Temático no NotebookLM** focado no ecossistema de **Análise de Dados**. A proposta central é integrar o pensamento crítico do analista ao uso de IA Generativa, permitindo consolidar conceitos fundamentais, explorar ferramentas essenciais de mercado e compreender a integração com assistentes virtuais — **sem invadir escopos avançados de Engenharia de Dados ou Ciência de Dados pura (Machine Learning/MLOps)**.
 
 ### Objetivos Específicos:
-* **Consolidar os fundamentos:** Compreender ciclos de vida (CRISP-DM, metodologia Google) e estatística descritiva aplicada a negócios.
-* **Dominar ferramentas essenciais:** Mapear o uso de planilhas (Excel/Google Sheets), linguagem de consulta (SQL) e ferramentas de Business Intelligence (Power BI/Tableau/Looker).
-* **Explorar o uso de IA:** Analisar como assistentes generativos (Copilot, Gemini) otimizam a produtividade no ecossistema de dados mantendo a supervisão humana.
-* **Documentar o processo de IA:** Registrar testes de prompts, refinamentos e as limitações ("cicatrizes") encontradas no NotebookLM.
+* **Consolidar os fundamentos:** Compreender os ciclos de vida analíticos (CRISP-DM e metodologia Google) e a aplicação da estatística descritiva na resolução de problemas de negócios.
+* **Mapear ferramentas essenciais:** Identificar o papel prático de planilhas eletrônicas (Excel/Sheets), linguagem de consulta (SQL) e plataformas de Business Intelligence (Power BI, Tableau e Looker).
+* **Explorar o uso da IA como assistente:** Avaliar como assistentes generativos (Copilot, Gemini) otimizam a produtividade no ecossistema de dados, mantendo sempre a supervisão e validação humana.
+* **Documentar o processo de IA ("cicatrizes"):** Registrar testes de prompts, refinamentos e as limitações encontradas durante o uso do NotebookLM.
 
 ---
 
 ## Curadoria de Fontes Selecionadas por Tópico
 
-Para alimentar o NotebookLM com materiais confiáveis e abertos, foram selecionadas 21 fontes abertas de alta autoridade técnica, divididas entre cada eixo temático do projeto. Abaixo foram citadas 5 fontes principais, uma para cada eixo:
+Para garantir que o NotebookLM trabalhasse apenas com conteúdos confiáveis, foram reunidas 21 fontes abertas de alta autoridade técnica, distribuídas entre os eixos do projeto. Abaixo estão destacadas as 5 fontes principais, representando cada tema estudado:
 
 ### 1. Teoria, Fundamentos e Metodologia de Trabalho
-Detalha o ciclo de vida clássico de projetos analíticos, abordando desde o entendimento do problema de negócio até a validação e implantação dos modelos.
-* **Link:** [CRISP-DM Process Overview (Wikipedia)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
+Detalha o ciclo de vida clássico de projetos analíticos, abordando desde o entendimento do problema de negócio até a validação e entrega final dos resultados.
+* **Fonte principal:** [CRISP-DM Process Overview (Wikipedia)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
 
 ---
 
 ### 2. Manipulação com Planilhas (Excel e Google Sheets)
-Apresenta a estrutura conceitual de planilhas eletrônicas, lógica de fórmulas, referências cruzadas de células e agrupamentos por tabelas dinâmicas.
-* **Link:** [Spreadsheets & Functions (Wikipedia)](https://en.wikipedia.org/wiki/Spreadsheet)
+Apresenta a estrutura conceitual das planilhas eletrônicas, a lógica de fórmulas, referências cruzadas de células e a consolidação de dados por tabelas dinâmicas.
+* **Fonte principal:** [Spreadsheets & Functions (Wikipedia)](https://en.wikipedia.org/wiki/Spreadsheet)
 
 ---
 
 ### 3. Consulta e Estruturação de Dados com SQL
-Guia focado na prática analítica com SQL, ensinando desde filtragens e agregações até *Window Functions* para consultas temporais e agrupadas.
-* **Link:** [PostgreSQL for Data Analysis Guide (Domo)](https://www.domo.com/learn/article/postgresql-for-data-analysis-a-complete-guide)
+Guia focado na prática analítica com SQL, cobrindo desde filtragens e agregações básicas até o uso de *Window Functions* para consultas temporais e agrupadas.
+* **Fonte principal:** [PostgreSQL for Data Analysis Guide (Domo)](https://www.domo.com/learn/article/postgresql-for-data-analysis-a-complete-guide)
 
 ---
 
 ### 4. Visualização de Dados e Dashboards
-Documentação oficial que ensina a estruturar dados no formato *Star Schema* (Fato e Dimensão) e criar métricas otimizadas para dashboards interativos.
-* **Link:** [Power BI Data Modeling & DAX (Microsoft Learn)](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-modeling-view)
+Documentação oficial focada na modelagem multidimensional em formato *Star Schema* (separação entre tabelas Fato e Dimensão) e na criação de métricas calculadas via DAX.
+* **Fonte principal:** [Power BI Data Modeling & DAX (Microsoft Learn)](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-modeling-view)
 
 ---
 
 ### 5. IA Aplicada para Acelerar a Análise de Dados
-Aborda os fundamentos e o funcionamento da Inteligência Artificial Generativa no suporte ao processamento de dados, automação de sintaxe e análise preditiva.
-* **Link:** [Generative AI Overview (Wikipedia)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
+Aborda os fundamentos da Inteligência Artificial Generativa e sua aplicação prática na automação de sintaxes, suporte ao processamento de dados e análise preditiva.
+* **Fonte principal:** [Generative AI Overview (Wikipedia)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
 
 ---
 
 ## Engenharia de Prompts e Registro de "Cicatrizes" (Troubleshooting)
 
-Nesta seção estão documentados os testes realizados no NotebookLM, o raciocínio por trás dos prompts, os resultados, as referências utilizadas pela IA e a análise crítica das limitações observadas.
+Esta seção documenta as consultas submetidas ao NotebookLM, o raciocínio por trás de cada prompt, os resultados gerados, as fontes utilizadas e a análise crítica das limitações observadas no processo.
 
 ### Prompts Submetidos e Respostas Obtidas
 
 #### Prompt 1: O Papel da IA Generativa na Análise
 > **Pergunta:** *"De acordo com as fontes, como a IA generativa (ex: Copilot, Gemini) pode ser usada para auxiliar na escrita de consultas SQL e fórmulas DAX no Power BI sem substituir o pensamento crítico do analista?"*
 >
-> **Resultado da IA:** O NotebookLM entregou uma excelente resposta conceitual. Destacou a geração de DAX no Power BI e SQL no BigQuery, apontou o risco de alucinação e reforçou que a IA atua como ferramenta de aumento de produtividade, cabendo ao analista a validação do contexto do negócio.
+> **Resultado da IA:** O NotebookLM entregou uma resposta conceitual sólida. Destacou a geração de DAX no Power BI e SQL no BigQuery, alertou sobre o risco de alucinações e reforçou que a IA atua como ferramenta de produtividade, cabendo ao analista a validação do contexto do negócio.
 >
-> **Fontes Referenciadas no NotebookLM:** *Power BI Data Modeling & DAX (Microsoft Learn)* e *Generative AI Overview (Wikipedia)*.
+> **Fontes citadas pela IA:** *Power BI Data Modeling & DAX (Microsoft Learn)* e *Generative AI Overview (Wikipedia)*.
 
 #### Prompt 2: Ciclos de Vida, SQL Prático e Conexões no Power BI
 > **Pergunta:** *"Com base nas fontes, explique as etapas do CRISP-DM, crie um guia comparando WHERE vs. HAVING com exemplo de ROW_NUMBER, e explique como conectar o Power BI ao SQL/Excel em um Star Schema."*
 >
-> **Resultado da IA:** O modelo priorizou a discussão sobre IA e omitiu o detalhamento das etapas do CRISP-DM e a sintaxe prática em código do SQL.
+> **Resultado da IA:** O modelo priorizou a discussão sobre IA e omitiu o detalhamento das etapas do CRISP-DM, bem como a sintaxe prática em código SQL solicitada.
 >
-> **Fontes Referenciadas no NotebookLM:** *Generative AI Overview (Wikipedia)* (omitiu citações diretas das fontes de SQL e CRISP-DM devido à compressão do prompt).
+> **Fontes citadas pela IA:** *Generative AI Overview (Wikipedia)* (omitiu as fontes de SQL e CRISP-DM devido à sobrecarga de tópicos no prompt).
 
-### Registro de "Cicatrizes" (Limitações & Resolução de Problemas)
+---
+
+### Registro de "Cicatrizes" (Análise de Limitações)
 
 1. **Compressão do Contexto por Prompt Agrupado:**
-   * **Dificuldade:** Ao enviar múltiplos tópicos complexos (CRISP-DM + SQL + Power BI + IA) em uma única mensagem, o modelo tendeu a responder com profundidade apenas o último tópico e generalizar/omitir os primeiros.
-   * **Solução:** Fracionar as perguntas no NotebookLM em prompts individuais focados por tema.
+   * **Problema:** Ao enviar múltiplos tópicos complexos (CRISP-DM + SQL + Power BI + IA) em uma única mensagem, o modelo tendeu a focar no último assunto e generalizar os demais.
+   * **Solução:** Fracionar as consultas no NotebookLM em prompts individuais e focados por tema.
 
-2. **Aversão a Código Prático Formatado:**
-   * **Dificuldade:** A IA respondeu em prosa fluida, ignorando a solicitação de exemplos em blocos de código SQL legíveis.
-   * **Solução:** Adicionar restrições explícitas de formato no prompt, como: *"Forneça a resposta estruturada em Markdown, usando blocos de código SQL (` ```sql `) para demonstrar a sintaxe"*.
+2. **Aversão à Formatação de Código:**
+   * **Problema:** A IA respondeu em texto corrido, ignorando a solicitação de exemplos práticos em blocos de código legíveis.
+   * **Solução:** Adicionar restrições explícitas de formato no prompt, como: *"Forneça a resposta em formato Markdown, utilizando blocos de código SQL (` ```sql `)"*.
 
 ---
 
@@ -93,17 +93,17 @@ Nesta seção estão documentados os testes realizados no NotebookLM, o raciocí
 ### 1. Resumos Estruturados do Assunto
 
 #### A. O Ciclo de Vida da Análise (CRISP-DM & Google)
-Toda análise de dados de sucesso começa no negócio, não nos dados. 
-1. **Entendimento do Negócio:** Mapear o problema real e definir as perguntas que precisam ser respondidas.
-2. **Coleta e Preparação de Dados:** Extrair de bancos de dados ou planilhas e realizar a limpeza (tratamento de duplicatas e nulos).
+Projetos analíticos orientados ao valor começam no entendimento do problema, e não na tecnologia. O fluxo estruturado compreende:
+1. **Entendimento do Negócio:** Mapear o problema e definir as perguntas estratégicas que precisam ser respondidas.
+2. **Coleta e Preparação de Dados:** Extrair dados de bancos ou planilhas e realizar a limpeza (tratamento de duplicatas e valores nulos).
 3. **Análise Exploratória:** Aplicar estatística descritiva (média, mediana, desvio padrão) para identificar padrões e anomalias.
-4. **Visualização e Comunicação:** Traduzir dados em gráficos claros (dashboards) focados nos KPIs estratégicos.
-5. **Tomada de Ação:** Apresentar *insights* recomendando decisões baseadas em evidências.
+4. **Visualização e Comunicação:** Traduzir dados em dashboards claros e focados nos KPIs estratégicos do negócio.
+5. **Tomada de Ação:** Apresentar recomendações embasadas em dados para suportar as decisões gerenciais.
 
 #### B. Ecossistema de Ferramentas
-* **Planilhas (Excel/Sheets):** Ideais para ad-hoc analysis, prototipagem rápida, limpeza básica e relatórios pontuais com `VLOOKUP`, `XLOOKUP` e Tabelas Dinâmicas.
-* **SQL (Queries):** A linguagem padrão para manipular e consultar volumes maiores em bancos relacionais (PostgreSQL, MySQL, BigQuery). Permite filtrar (`WHERE`), agregar (`GROUP BY` / `HAVING`) e realizar análises temporais com *Window Functions* (`ROW_NUMBER`).
-* **Dashboards & BI (Power BI/Tableau/Looker):** Ferramentas para conectar fontes heterogêneas (Excel + SQL), modelar dados em **Star Schema** (Tabelas Fato de eventos ligadas a Tabelas Dimensão de contexto) e publicar relatórios interativos.
+* **Planilhas (Excel/Sheets):** Indicadas para análises pontuais (*ad-hoc*), prototipagem rápida, limpeza básica e criação de relatórios com `VLOOKUP`, `XLOOKUP` e Tabelas Dinâmicas.
+* **SQL (Queries):** Linguagem padrão para consultar e manipular grandes volumes de dados em bancos relacionais (PostgreSQL, MySQL, BigQuery). Permite aplicar filtros (`WHERE`), agrupamentos (`GROUP BY` / `HAVING`) e análises temporais via *Window Functions* (`ROW_NUMBER`).
+* **Dashboards & BI (Power BI/Tableau/Looker):** Plataformas que conectam fontes heterogêneas, estruturam dados no modelo **Star Schema** (tabelas Fato conectadas a tabelas Dimensão) e publicam relatórios interativos.
 
 ---
 
@@ -111,10 +111,12 @@ Toda análise de dados de sucesso começa no negócio, não nos dados.
 
 | Conceito | Definição Prática |
 | :--- | :--- |
-| **CRISP-DM** | *Cross-Industry Standard Process for Data Mining*. Metodologia padrão para conduzir projetos analíticos. |
-| **KPI** | *Key Performance Indicator*. Métrica quantitativa essencial para medir o sucesso de um objetivo de negócio. |
-| **Star Schema** | Modelo de dados otimizado para BI com uma tabela Fato central cercada por tabelas Dimensão. |
-| **DAX** | *Data Analysis Expressions*. Linguagem de fórmulas utilizada no Power BI para criar medidas calculadas. |
+| **CRISP-DM** | *Cross-Industry Standard Process for Data Mining*. Metodologia padrão para condução de projetos analíticos. |
+| **KPI** | *Key Performance Indicator*. Métrica quantitativa essencial para avaliar o atingimento dos objetivos de negócio. |
+| **Star Schema** | Modelo de dados multidimensional composto por uma tabela Fato central conectada a tabelas Dimensão. |
+| **DAX** | *Data Analysis Expressions*. Linguagem de fórmulas utilizada no Power BI para a criação de medidas e cálculos customizados. |
+
+---
 
 ### 3. Conjunto de Prompts Reutilizáveis (Para Estudos Futuros)
 
