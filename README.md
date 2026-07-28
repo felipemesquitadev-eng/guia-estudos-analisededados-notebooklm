@@ -20,27 +20,27 @@ O objetivo principal é aliar o pensamento crítico à Inteligência Artificial 
 
 ## Curadoria de Fontes Selecionadas por Tópico
 
-Para alimentar o NotebookLM com materiais confiáveis e abertos, foram selecionadas 20 fonte de referência técnica de alta autoridade para cada um dos 5 eixos temáticos do projeto:
+Para alimentar o NotebookLM com materiais confiáveis e abertos, foram selecionadas 20 fonte de referência técnica de alta autoridade para cada um dos 5 eixos temáticos do projeto. Abaixo estão os eixos e uma fonte principal para cada.
 
 ### 1. Teoria, Fundamentos e Metodologia de Trabalho
 Detalha o ciclo de vida clássico de projetos analíticos, abordando desde o entendimento do problema de negócio até a validação e implantação dos modelos.
-* **Link:** [CRISP-DM Process Overview (Wikipedia)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
+* **Fonte:** [CRISP-DM Process Overview (Wikipedia)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
 
 ### 2. Manipulação com Planilhas (Excel e Google Sheets)
 Apresenta a estrutura conceitual de planilhas eletrônicas, lógica de fórmulas, referências cruzadas de células e agrupamentos por tabelas dinâmicas.
-* **Link:** [Spreadsheets & Functions (Wikipedia)](https://en.wikipedia.org/wiki/Spreadsheet)
+* **Fonte:** [Spreadsheets & Functions (Wikipedia)](https://en.wikipedia.org/wiki/Spreadsheet)
 
 ### 3. Consulta e Estruturação de Dados com SQL
 Guia focado na prática analítica com SQL, ensinando desde filtragens e agregações até *Window Functions* para consultas temporais e agrupadas.
-* **Link:** [PostgreSQL for Data Analysis Guide (Domo)](https://www.domo.com/learn/article/postgresql-for-data-analysis-a-complete-guide)
+* **Fonte:** [PostgreSQL for Data Analysis Guide (Domo)](https://www.domo.com/learn/article/postgresql-for-data-analysis-a-complete-guide)
 
 ### 4. Visualização de Dados e Dashboards
 Documentação oficial que ensina a estruturar dados no formato *Star Schema* (Fato e Dimensão) e criar métricas otimizadas para dashboards interativos.
-* **Link:** [Power BI Data Modeling & DAX (Microsoft Learn)](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-modeling-view)
+* **Fonte:** [Power BI Data Modeling & DAX (Microsoft Learn)](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-modeling-view)
 
 ### 5. IA Aplicada para Acelerar a Análise de Dados
 Aborda os fundamentos e o funcionamento da Inteligência Artificial Generativa no suporte ao processamento de dados, automação de sintaxe e análise preditiva.
-* **Link:** [Generative AI Overview (Wikipedia)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
+* **Fonte:** [Generative AI Overview (Wikipedia)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
 
 ---
 
