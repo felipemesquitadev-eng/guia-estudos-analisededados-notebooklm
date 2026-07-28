@@ -111,4 +111,23 @@ Toda análise de dados de sucesso começa no negócio, não nos dados.
 | **KPI** | *Key Performance Indicator*. Métrica quantitativa essencial para medir o sucesso de um objetivo de negócio. |
 | **Star Schema** | Modelo de dados otimizado para BI com uma tabela Fato central cercada por tabelas Dimensão. |
 | **DAX** | *Data Analysis Expressions*. Linguagem de fórmulas utilizada no Power BI para criar medidas calculadas. |
-|
+
+### 3. Conjunto de Prompts Reutilizáveis (Para Estudos Futuros)
+
+Abaixo estão 3 templates de prompts testados e otimizados para reutilização no NotebookLM ou em outros assistentes de IA:
+
+#### Prompt 1: Explicação de Código SQL
+```text
+Atue como um Analista de Dados Sênior. Com base nas fontes, explique a diferença conceitual e prática entre a cláusula WHERE e HAVING no SQL. Forneça um exemplo prático contendo um SELECT com GROUP BY e insira um bloco de código formatado.
+```
+
+#### Prompt 2: Modelagem Multidimensional no Power BI
+```text
+Com base no material de Business Intelligence, explique o que é o modelo Star Schema. Quais são as diferenças fundamentais entre uma tabela Fato e uma tabela Dimensão e como essa estrutura otimiza a performance de consultas e medidas DAX?
+```
+
+#### Prompt 3: Framework para Análise de Problemas de Negócio
+```text
+Atue como especialista em análise de negócios. Dado o ciclo de vida do CRISP-DM, descreva o passo a passo para mapear os requisitos da fase 'Entendimento do Negócio' antes de extrair qualquer dado do banco SQL. Liste 3 perguntas essenciais que o analista deve fazer aos stakeholders.
+```
+
