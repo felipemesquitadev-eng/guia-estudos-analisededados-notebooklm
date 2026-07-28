@@ -20,7 +20,7 @@ O objetivo principal é aliar o pensamento crítico à Inteligência Artificial 
 
 ## Curadoria de Fontes Selecionadas por Tópico
 
-Para alimentar o NotebookLM com materiais confiáveis e abertos, foram selecionadas 20 fonte de referência técnica de alta autoridade para cada um dos 5 eixos temáticos do projeto. Abaixo estão os eixos e uma fonte principal para cada.
+Para alimentar o NotebookLM com materiais confiáveis e abertos, foram selecionadas 21 fontes de conteúdo para os 5 eixos temáticos do projeto. Abaixo estão descritos os eixos e uma fonte fonte de referência técnica de alta autoridade para cada.
 
 ### 1. Teoria, Fundamentos e Metodologia de Trabalho
 Detalha o ciclo de vida clássico de projetos analíticos, abordando desde o entendimento do problema de negócio até a validação e implantação dos modelos.
